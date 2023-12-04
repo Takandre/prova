@@ -1,4 +1,4 @@
-import { Container, Form, Row, Col, FloatingLabel, Button, Alert } from 'react-bootstrap'
+import { Container, Form, Row, Col, FloatingLabel, Button } from 'react-bootstrap'
 
 
 export default function formUsuario(props){
@@ -32,7 +32,7 @@ export default function formUsuario(props){
     }
 
     return(
-        <div>
+        <Container>
             <Form noValidate onSubmit={manipularSubmissao}>
                 <Row>
                     <Col>
@@ -59,6 +59,6 @@ export default function formUsuario(props){
                 </Row>
                 
             </Form>
-        </div>
+        </Container>
     )
 }

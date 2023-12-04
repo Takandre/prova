@@ -3,12 +3,12 @@ import formUsuario from "./form/formUsuario";
 import { useState } from "react";
 import { Container } from 'react-bootstrap';
 
-export default function telaUsuario(){
-    const [telaUsu, setTelaUsu] = useState(true);
+export default function TelaUsuario(){
+    const [TelaUsu, setTelaUsu] = useState(true);
 
     return(
         <Container>
-            {telaCategorias ? (
+            {TelaUsu ? (
                 <formUsuario
                     conteudo={setTelaUsu}
                 />

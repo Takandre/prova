@@ -1,8 +1,9 @@
 import { Button, Container, Table, Alert } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function tabelaUsuario(props) {
     const { conteudo } = props;
-
+    const {listaUsuarios} = useSelector((state) => state.usuario);
     return (
         <Container>
             <Table striped bordered hover>

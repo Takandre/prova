@@ -4,6 +4,8 @@ import { Container, Form, Row, Col, FloatingLabel, Button, Alert } from 'react-b
 export default function formUsuario(props){
     const { conteudo } = props;
     return(
-        
+        <div>
+            
+        </div>
     )
 }
